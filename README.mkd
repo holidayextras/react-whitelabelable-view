@@ -1,0 +1,32 @@
+## React Whitelabelable View
+
+### Default Install Instructions
+
+```
+npm install
+npm run build-demo
+```
+
+This will build a demo version of the view to `./dev/component.js`, view it by opening `./dev/index.html` in your browser.
+
+### Switching to a variant template:
+
+```
+TEMPLATE_VARIANT=foobar.com npm run build-demo
+```
+
+Now, when you refresh the page, you'll be looking at the variant template. Oooooh.
+
+
+### Next steps:
+
+This is very basic example. My next steps are:
+
+- To figure out how these should work when we're requiring lots of these into a parent project and compositing them together, should be fairly straightforward to get working, but a nice interface for developers might require a bit more thought.
+- To ensure compositing several smaller views together into a larger view still "just works".
+- To integrate a few in a Backbone application.
+- To begin to make the views dependent on Backbone models passed into them, so they're rendering dynamic rather than static content.
+- Update the parent backbone app to re-render the integrated view whenever the model data changes.
+- Monitor the performance of the re-rendering.
+- Make an actual useful shared component.
+- Publish a shared view component template project.

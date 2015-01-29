@@ -1,0 +1,17 @@
+{
+  "description": "A proof of concept multilingual, profileable view component.",
+  "repository": ":(",
+  "main": "src/component.js",
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "envify": "^3.2.0",
+    "react": "^0.12.2",
+    "reactify": "^1.0.0"
+  },
+  "scripts": {
+    "build-dev": "./scripts/build-dev.sh"
+  },
+  "browserify": {
+    "transform": [ "reactify", "envify" ]
+  }
+}
