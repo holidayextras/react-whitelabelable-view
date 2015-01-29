@@ -4,15 +4,15 @@
 
 ```
 npm install
-npm run build-demo
+npm run build-dev
 ```
 
-This will build a demo version of the view to `./dev/component.js`, view it by opening `./dev/index.html` in your browser.
+This will build a development version of the view to `./dev/component.js`, view it by opening `./dev/index.html` in your browser.
 
 ### Switching to a variant template:
 
 ```
-TEMPLATE_VARIANT=foobar.com npm run build-demo
+VARIANT=foobar.com npm run build-dev
 ```
 
 Now, when you refresh the page, you'll be looking at the variant template. Oooooh.
