@@ -2,9 +2,8 @@ var React = require('react');
 
 var HelloWorld = React.createClass({
   render: function() {
-    // There might be a nicer way of resolving these at build time...
-    return require('./templates/index.jsx');
+    return require('./templates/index.jsx'); // using redirectify we pull the correct template for the site
   }
 });
 
-React.renderComponent(<HelloWorld/>, document.body);
+module.exports = HelloWorld;
