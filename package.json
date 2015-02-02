@@ -2,7 +2,7 @@
   "name": "react-whitelabelable-view",
   "description": "A proof of concept multilingual, profileable view component.",
   "repository": ":(",
-  "main": "src/component.js",
+  "main": "index.js",
   "devDependencies": {
     "browserify": "^8.1.1",
     "envify": "^3.2.0",
