@@ -1,5 +1,6 @@
 {
   "name": "react-whitelabelable-view",
+  "version": "0.0.1",
   "description": "A proof of concept multilingual, profileable view component.",
   "repository": ":(",
   "main": "src/component.js",
